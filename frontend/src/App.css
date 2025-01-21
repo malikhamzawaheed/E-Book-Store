@@ -1,0 +1,18 @@
+.navbar-brand {
+  font-weight: bold;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.badge {
+  font-size: 0.75rem;
+  vertical-align: top;
+}

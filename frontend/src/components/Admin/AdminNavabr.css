@@ -1,0 +1,40 @@
+/* Custom Styling for Admin Navbar */
+.navbar {
+    background-color: #0066cc !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffcc00 !important;
+  }
+  
+  .navbar-nav .nav-item.active .nav-link {
+    color: #ffcc00 !important;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff;
+  }
+  
+  .btn-outline-light {
+    color: #ffffff;
+    border-color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+    color: #000;
+  }
+  

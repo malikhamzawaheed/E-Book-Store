@@ -1,0 +1,76 @@
+/* Custom Styling for Sales Dashboard */
+.container {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    color: #0066cc;
+  }
+  
+  .table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th, .table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .table-striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .form-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-select {
+    width: 150px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .alert {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+  }
+  
+  .alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
